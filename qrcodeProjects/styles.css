@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.qr_container{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 30px;
+    width: 500px;
+    box-shadow: 0 0 10px 0 rgba(rgb(12, 10, 10), rgba(0, 128, 0, 0), rgb(1, 1, 24), alpha);
+background-color: aliceblue;
+
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#qr-input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#qr-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    background-color: rgb(21, 240, 13);
+    color: aliceblue;
+    border: none !important;
+    border-radius: 20px;
+
+
+}
+#qr-img {
+    display: block;
+width: 50%;
+margin: auto;
+
+
+
+}

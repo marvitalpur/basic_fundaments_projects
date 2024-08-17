@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+
+}
+.container{
+    width: 300px;
+    padding: 15px;
+    background-color: aliceblue;
+}
+.score{
+    text-align: center;
+    color: blue;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.question{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+}
+#input{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#submit{
+    width: 100%;
+    padding: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+

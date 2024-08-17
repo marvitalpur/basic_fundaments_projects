@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: rgb(141, 187, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 300px;
+    background-color:azure;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 50 0 black;
+    border-radius: 10px;
+}
+.month{
+    font-size: 2rem;
+    border-radius: 10px;
+    font-weight: bold;
+    color: rgb(255, 252, 252);
+    background-color: crimson;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.weekday{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.day{
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(7, 4, 4);
+    font-size:50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.year{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

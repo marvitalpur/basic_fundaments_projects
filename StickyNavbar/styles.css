@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-container{
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+    color: aliceblue;
+    height: 70px;
+    position:fixed;
+    width: 100%;
+    z-index: 10000
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    text-transform: uppercase;
+}
+.navbar{
+  padding-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.imag-container{
+    /* width: 100%; */
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    margin-top: 40px;
+  
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: auto
+}
+#cofee{
+    position: absolute;
+    width: 100%;
+top: 50%;
+left: 25%;
+    color: rgb(250, 255, 177);
+    text-transform: capitalize;
+    font-size: 100px;
+}
